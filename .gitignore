@@ -1,0 +1,6 @@
+*.o
+*.img
+*.elf
+*.qcow2
+*.dtb
+*/target/*
