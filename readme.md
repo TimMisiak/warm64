@@ -2,7 +2,7 @@
 
 Why use webassembly when you could use REAL assembly?
 
-This project provides a way of building rust code to aarch64, and then running that aarch64 code inside the unicorn.js emulator. A basic MMIO system provides a way to interact with the DOM.
+This project provides a way of building rust code to aarch64, and then running that aarch64 code inside the unicorn.js emulator. A basic "MMIO" system provides a way to write text to an HTML element.
 
 What's done:
 
