@@ -17,9 +17,9 @@ To do:
 
 # Quickstart
 
-Use build.cmd to build the warm64-server docker container.
-Use run.cmd to run the warm64-server container
-Then navigate to http://localhost:8080 to view the app.
+* Use build.cmd to build the warm64-server docker container.
+* Use run.cmd to run the warm64-server container
+* Then navigate to http://localhost:8080 to view the app.
 
 # Detailed build instructions
 
