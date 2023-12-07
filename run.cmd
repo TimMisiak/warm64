@@ -1,1 +1,1 @@
-docker run -p 8080:8080/tcp warm64-server
+docker run -p 8080:8080/tcp -it warm64-server
