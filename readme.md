@@ -6,20 +6,20 @@ This project provides a way of building rust code to aarch64, and then running t
 
 What's done:
 
-* Docker container for cross-compilation
-* Script for building the aarch64 code from a rust no_std library
-* Load code in unicorn.js
-* Create "MMIO" for basic text output
+- Docker container for cross-compilation
+- Script for building the aarch64 code from a rust no_std library
+- Load code in unicorn.js
+- Create "MMIO" for basic text output
 
 To do:
 
-* Create MMIO for DOM interaction
+- Create MMIO for DOM interaction
 
 # Quickstart
 
-* Use build.cmd to build the warm64-server docker container.
-* Use run.cmd to run the warm64-server container
-* Then navigate to http://localhost:8080 to view the app.
+- Use build.cmd to build the warm64-server docker container.
+- Use run.cmd to run the warm64-server container
+- Then navigate to http://localhost:8080 to view the app.
 
 # Detailed build instructions
 
@@ -74,6 +74,16 @@ To run:
 
 ```
 poetry run python app.py
+```
+
+## Tauri Native Wrapper
+
+Sometimes you want to run your app natively, you can do this with your Warm64 app using Tauri
+
+```
+cd tauri-app
+cargo install tauri-cli
+cargo tauri dev
 ```
 
 # FAQ
